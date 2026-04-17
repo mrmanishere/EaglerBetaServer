@@ -1,0 +1,2350 @@
+2025-03-16 12:30:33 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 12:30:33 [INFO] Loading properties
+2025-03-16 12:30:33 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 12:30:34 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 12:30:34 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 12:30:34 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 12:30:34 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 12:30:34 [WARNING] Failed to load ban list: java.io.FileNotFoundException: banned-players.txt (The system cannot find the file specified)
+2025-03-16 12:30:34 [WARNING] Failed to load ip ban list: java.io.FileNotFoundException: banned-ips.txt (The system cannot find the file specified)
+2025-03-16 12:30:34 [WARNING] Failed to load ops: java.io.FileNotFoundException: ops.txt (The system cannot find the file specified)
+2025-03-16 12:30:34 [WARNING] Failed to load white-list: java.io.FileNotFoundException: white-list.txt (The system cannot find the file specified)
+2025-03-16 12:30:34 [INFO] Preparing level "world"
+2025-03-16 12:30:34 [INFO] Preparing start region
+2025-03-16 12:30:35 [INFO] Preparing spawn area: 20%
+2025-03-16 12:30:36 [INFO] Preparing spawn area: 36%
+2025-03-16 12:30:37 [INFO] Preparing spawn area: 52%
+2025-03-16 12:30:38 [INFO] Preparing spawn area: 69%
+2025-03-16 12:30:39 [INFO] Preparing spawn area: 89%
+2025-03-16 12:30:39 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 12:30:39 [INFO] Done (0.581s)! For help, type "help" or "?"
+2025-03-16 12:30:39 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 12:30:39 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 12:30:44 [INFO] CONSOLE: Stopping the server..
+2025-03-16 12:30:44 [INFO] Stopping server
+2025-03-16 12:30:44 [INFO] Saving chunks
+2025-03-16 12:31:44 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 12:31:44 [INFO] Loading properties
+2025-03-16 12:31:44 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 12:31:44 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 12:31:44 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 12:31:44 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 12:31:44 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 12:31:44 [INFO] Preparing level "world"
+2025-03-16 12:31:44 [INFO] Preparing start region
+2025-03-16 12:31:44 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 12:31:44 [INFO] Done (0.022s)! For help, type "help" or "?"
+2025-03-16 12:31:44 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 12:31:44 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 12:31:47 [INFO] To run the server without a gui, start it like this:
+2025-03-16 12:31:47 [INFO]    java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+2025-03-16 12:31:47 [INFO] Console commands:
+2025-03-16 12:31:47 [INFO]    help  or  ?               shows this message
+2025-03-16 12:31:47 [INFO]    kick <player>             removes a player from the server
+2025-03-16 12:31:47 [INFO]    ban <player>              bans a player from the server
+2025-03-16 12:31:47 [INFO]    pardon <player>           pardons a banned player so that they can connect again
+2025-03-16 12:31:47 [INFO]    ban-ip <ip>               bans an IP address from the server
+2025-03-16 12:31:47 [INFO]    pardon-ip <ip>            pardons a banned IP address so that they can connect again
+2025-03-16 12:31:47 [INFO]    op <player>               turns a player into an op
+2025-03-16 12:31:47 [INFO]    deop <player>             removes op status from a player
+2025-03-16 12:31:47 [INFO]    tp <player1> <player2>    moves one player to the same location as another player
+2025-03-16 12:31:47 [INFO]    give <player> <id> [num]  gives a player a resource
+2025-03-16 12:31:47 [INFO]    tell <player> <message>   sends a private message to a player
+2025-03-16 12:31:47 [INFO]    stop                      gracefully stops the server
+2025-03-16 12:31:47 [INFO]    save-all                  forces a server-wide level save
+2025-03-16 12:31:47 [INFO]    save-off                  disables terrain saving (useful for backup scripts)
+2025-03-16 12:31:47 [INFO]    save-on                   re-enables terrain saving
+2025-03-16 12:31:47 [INFO]    list                      lists all currently connected players
+2025-03-16 12:31:47 [INFO]    say <message>             broadcasts a message to all players
+2025-03-16 12:31:47 [INFO]    time <add|set> <amount>   adds to or sets the world time (0-24000)
+2025-03-16 12:31:59 [INFO] Unknown console command. Type "help" for help.
+2025-03-16 12:32:27 [INFO] Error: this command takes 2 or 3 arguments!
+
+2025-03-16 12:32:27 [INFO] Usage: /set-password <username> <password> [expires][s|m|h|d|w]
+
+2025-03-16 12:33:08 [INFO] Password for 'keyboardspam420' was changed
+
+2025-03-16 12:33:40 [INFO] 143 recipes
+
+2025-03-16 12:33:40 [INFO] keyboardspam420 [websocket] logged in with entity id 185
+2025-03-16 12:33:47 [INFO] <keyboardspam420> Hi!
+2025-03-16 12:33:54 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-16 12:34:06 [INFO] Friend [websocket] logged in with entity id 1504
+2025-03-16 12:34:26 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 12:34:33 [INFO] Friend [websocket] logged in with entity id 1686
+2025-03-16 12:34:41 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 12:34:50 [INFO] Friend [websocket] logged in with entity id 1807
+2025-03-16 12:34:57 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 12:35:03 [INFO] CONSOLE: Stopping the server..
+2025-03-16 12:35:03 [INFO] Stopping server
+2025-03-16 12:35:03 [INFO] Saving chunks
+2025-03-16 12:36:14 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 12:36:14 [INFO] Loading properties
+2025-03-16 12:36:14 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 12:36:14 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 12:36:14 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 12:36:14 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 12:36:14 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 12:36:14 [INFO] Preparing level "world"
+2025-03-16 12:36:14 [INFO] Preparing start region
+2025-03-16 12:36:14 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 12:36:14 [INFO] Done (0.023s)! For help, type "help" or "?"
+2025-03-16 12:36:14 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 12:36:14 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 12:36:20 [INFO] Disconnecting Friend [websocket]: This username requires a password to join!
+2025-03-16 12:36:20 [INFO] Friend [websocket] was kicked while logging in: disconnect.closed
+2025-03-16 12:36:27 [INFO] 143 recipes
+
+2025-03-16 12:36:27 [INFO] Friend [websocket] logged in with entity id 134
+2025-03-16 12:36:34 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 12:36:44 [INFO] keyboardspam420 [websocket] logged in with entity id 137
+2025-03-16 12:36:53 [INFO] CONSOLE: Stopping the server..
+2025-03-16 12:36:53 [INFO] Stopping server
+2025-03-16 12:36:53 [INFO] Saving chunks
+2025-03-16 12:38:18 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 12:38:18 [INFO] Loading properties
+2025-03-16 12:38:18 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 12:38:18 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 12:38:18 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 12:38:18 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 12:38:18 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 12:38:18 [INFO] Preparing level "world"
+2025-03-16 12:38:18 [INFO] Preparing start region
+2025-03-16 12:38:18 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 12:38:18 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 12:38:18 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 12:38:18 [INFO] Done (0.064s)! For help, type "help" or "?"
+2025-03-16 12:38:18 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 12:38:18 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 12:38:26 [INFO] CONSOLE: Stopping the server..
+2025-03-16 12:38:26 [INFO] Stopping server
+2025-03-16 12:38:26 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-16 12:38:26 [INFO] Saving chunks
+2025-03-16 12:39:33 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 12:39:33 [INFO] Loading properties
+2025-03-16 12:39:33 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 12:39:33 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 12:39:33 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 12:39:33 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 12:39:33 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 12:39:33 [INFO] Preparing level "world"
+2025-03-16 12:39:33 [INFO] Preparing start region
+2025-03-16 12:39:34 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 12:39:35 [INFO] Preparing spawn area for nether, 8%
+
+2025-03-16 12:39:36 [INFO] Preparing spawn area for nether, 20%
+
+2025-03-16 12:39:37 [INFO] Preparing spawn area for nether, 40%
+
+2025-03-16 12:39:38 [INFO] Preparing spawn area for nether, 52%
+
+2025-03-16 12:39:39 [INFO] Preparing spawn area for nether, 61%
+
+2025-03-16 12:39:40 [INFO] Preparing spawn area for nether, 73%
+
+2025-03-16 12:39:41 [INFO] Preparing spawn area for nether, 81%
+
+2025-03-16 12:39:42 [INFO] Preparing spawn area for nether, 93%
+
+2025-03-16 12:39:43 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 12:39:43 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 12:39:43 [INFO] Done (0.973s)! For help, type "help" or "?"
+2025-03-16 12:39:43 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 12:39:43 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 12:40:00 [INFO] CONSOLE: Stopping the server..
+2025-03-16 12:40:00 [INFO] Stopping server
+2025-03-16 12:40:00 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-16 12:40:00 [INFO] Saving chunks
+2025-03-16 15:13:39 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 15:13:39 [INFO] Loading properties
+2025-03-16 15:13:39 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 15:13:39 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 15:13:39 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 15:13:39 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 15:13:39 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 15:13:39 [INFO] Preparing level "world"
+2025-03-16 15:13:39 [INFO] Preparing start region
+2025-03-16 15:13:40 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 15:13:40 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:13:40 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:13:40 [INFO] Done (0.075s)! For help, type "help" or "?"
+2025-03-16 15:13:40 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 15:13:40 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 15:13:56 [INFO] 143 recipes
+
+2025-03-16 15:13:56 [INFO] keyboardspam420 [websocket] logged in with entity id 140
+2025-03-16 15:13:56 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:14:07 [INFO] keyboardspam420 issued server command: help
+2025-03-16 15:14:12 [INFO] [PLAYER_COMMAND] keyboardspam420: /motd 
+2025-03-16 15:14:16 [INFO] [PLAYER_COMMAND] keyboardspam420: /rules 
+2025-03-16 15:14:31 [INFO] [PLAYER_COMMAND] keyboardspam420: /list 
+2025-03-16 15:14:38 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-16 15:14:39 [INFO] Freed 35.702674865722656 MB.
+2025-03-16 15:14:42 [INFO] Disconnecting keyboardspam420 [websocket]: This username requires a password to join!
+2025-03-16 15:14:42 [INFO] keyboardspam420 [websocket] was kicked while logging in: disconnect.closed
+2025-03-16 15:14:49 [INFO] keyboardspam420 [websocket] logged in with entity id 480
+2025-03-16 15:14:49 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:14:56 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-16 15:14:57 [INFO] Freed 71.30866241455078 MB.
+2025-03-16 15:14:58 [INFO] keyboardspam420 [websocket] logged in with entity id 606
+2025-03-16 15:14:58 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:15:40 [INFO] [PLAYER_COMMAND] keyboardspam420: /give keyboardspam420 49
+2025-03-16 15:15:58 [INFO] [PLAYER_COMMAND] keyboardspam420: /give keyboardspam420 10
+2025-03-16 15:16:36 [INFO] [PLAYER_COMMAND] keyboardspam420: /give keyboardspam420 269
+2025-03-16 15:16:46 [INFO] [PLAYER_COMMAND] keyboardspam420: /give keyboardspam420 259
+2025-03-16 15:17:20 [INFO] [PLAYER_COMMAND] keyboardspam420: /give keyboardspam420 46
+2025-03-16 15:17:37 [INFO] [PLAYER_COMMAND] keyboardspam420: /give keyboardspam420 260
+2025-03-16 15:17:52 [INFO] [PLAYER_COMMAND] keyboardspam420: /give keyboardspam420 278
+2025-03-16 15:18:02 [INFO] 0, 1
+
+2025-03-16 15:18:12 [INFO] 1, 0
+
+2025-03-16 15:18:12 [INFO] keyboardspam420 used a portal and generated an exit portal.
+2025-03-16 15:18:33 [INFO] 1, 0
+
+2025-03-16 15:18:33 [INFO] keyboardspam420 used a portal and generated an exit portal.
+2025-03-16 15:18:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-03-16 15:18:57 [INFO] keyboardspam420 issued server command: spawn
+2025-03-16 15:18:57 [INFO] Unknown console command. Type "help" for help.
+2025-03-16 15:20:30 [INFO] keyboardspam420 issued server command: help
+2025-03-16 15:21:31 [INFO] Disconnecting Friend [websocket]: This username requires a password to join!
+2025-03-16 15:21:31 [INFO] Friend [websocket] was kicked while logging in: disconnect.closed
+2025-03-16 15:21:37 [INFO] Friend [websocket] logged in with entity id 58927
+2025-03-16 15:21:37 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:22:04 [INFO] keyboardspam420 issued server command: tp keyboardspam420 Friend
+2025-03-16 15:22:04 [INFO] keyboardspam420: Teleporting keyboardspam420 to Friend.
+2025-03-16 15:22:51 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-16 15:22:52 [INFO] Freed 251.60376739501953 MB.
+2025-03-16 15:22:53 [INFO] keyboardspam420 [websocket] logged in with entity id 110457
+2025-03-16 15:22:53 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:23:49 [INFO] 0, 1
+
+2025-03-16 15:23:53 [INFO] keyboardspam420 used a portal and used an existing exit portal.
+2025-03-16 15:24:10 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-16 15:24:11 [INFO] Freed 251.0222396850586 MB.
+2025-03-16 15:24:12 [INFO] keyboardspam420 [websocket] logged in with entity id 149787
+2025-03-16 15:24:12 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:24:15 [INFO] 1, 0
+
+2025-03-16 15:24:16 [INFO] keyboardspam420 used a portal and used an existing exit portal.
+2025-03-16 15:24:35 [INFO] keyboardspam420 issued server command: tp keyboardspam420 Friend
+2025-03-16 15:24:35 [INFO] keyboardspam420: Teleporting keyboardspam420 to Friend.
+2025-03-16 15:24:38 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-16 15:24:39 [INFO] Freed 1.9604263305664062 MB.
+2025-03-16 15:24:40 [INFO] keyboardspam420 [websocket] logged in with entity id 172342
+2025-03-16 15:24:40 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:25:02 [INFO] Friend used a portal and used an existing exit portal.
+2025-03-16 15:25:06 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 15:25:07 [INFO] Freed 240.3953399658203 MB.
+2025-03-16 15:25:10 [INFO] Friend [websocket] logged in with entity id 187370
+2025-03-16 15:25:10 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:25:23 [INFO] [PLAYER_COMMAND] Friend: /back 
+2025-03-16 15:25:42 [INFO] [PLAYER_COMMAND] Friend: /rules 
+2025-03-16 15:25:45 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 15:25:46 [INFO] Freed 79.61163330078125 MB.
+2025-03-16 15:25:47 [INFO] Friend [websocket] logged in with entity id 205796
+2025-03-16 15:25:47 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:25:57 [INFO] keyboardspam420 issued server command: tp Friend keyboardspam420
+2025-03-16 15:25:57 [INFO] keyboardspam420: Teleporting Friend to keyboardspam420.
+2025-03-16 15:26:02 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-03-16 15:26:24 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 15:26:25 [INFO] Freed 174.17137145996094 MB.
+2025-03-16 15:26:47 [INFO] keyboardspam420 lost connection: disconnect.closed
+2025-03-16 15:26:47 [INFO] keyboardspam420 [websocket] logged in with entity id 234304
+2025-03-16 15:26:47 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:26:48 [INFO] Freed 64.4062728881836 MB.
+2025-03-16 15:26:48 [INFO] Freed 63.929473876953125 MB.
+2025-03-16 15:26:58 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-16 15:26:59 [INFO] Freed 78.53384399414062 MB.
+2025-03-16 15:27:00 [INFO] keyboardspam420 [websocket] logged in with entity id 239710
+2025-03-16 15:27:00 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:27:19 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-16 15:27:20 [INFO] Freed 130.96307373046875 MB.
+2025-03-16 15:27:40 [INFO] CONSOLE: Stopping the server..
+2025-03-16 15:27:40 [INFO] Stopping server
+2025-03-16 15:27:40 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-16 15:27:40 [INFO] Saving chunks
+2025-03-16 15:35:37 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 15:35:37 [INFO] Loading properties
+2025-03-16 15:35:37 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 15:35:37 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 15:35:37 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 15:35:37 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 15:35:38 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 15:35:38 [INFO] Preparing level "world"
+2025-03-16 15:35:38 [INFO] Preparing start region
+2025-03-16 15:35:38 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 15:35:38 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:35:38 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:35:38 [INFO] Done (0.073s)! For help, type "help" or "?"
+2025-03-16 15:35:38 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 15:35:38 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 15:36:04 [INFO] 143 recipes
+
+2025-03-16 15:36:04 [INFO] Friend [websocket] logged in with entity id 226
+2025-03-16 15:36:04 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:36:09 [INFO] Friend tried command: help
+2025-03-16 15:36:34 [INFO] Friend tried command: help
+2025-03-16 15:36:39 [INFO] CONSOLE: Stopping the server..
+2025-03-16 15:36:39 [INFO] Stopping server
+2025-03-16 15:36:39 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-16 15:36:39 [INFO] Saving chunks
+2025-03-16 15:38:20 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 15:38:20 [INFO] Loading properties
+2025-03-16 15:38:20 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 15:38:20 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 15:38:20 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 15:38:20 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 15:38:20 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 15:38:20 [INFO] Preparing level "world"
+2025-03-16 15:38:20 [INFO] Preparing start region
+2025-03-16 15:38:20 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 15:38:20 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:38:20 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-03-16 15:38:20 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:38:20 [INFO] Done (0.073s)! For help, type "help" or "?"
+2025-03-16 15:38:21 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 15:38:21 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 15:38:29 [INFO] 143 recipes
+
+2025-03-16 15:38:29 [INFO] Friend [websocket] logged in with entity id 205
+2025-03-16 15:38:29 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:38:34 [INFO] [PLAYER_COMMAND] Friend: /help 
+2025-03-16 15:38:39 [INFO] [PLAYER_COMMAND] Friend: /afk 
+2025-03-16 15:38:53 [INFO] Friend tried command: broadcst hello
+2025-03-16 15:39:05 [INFO] [PLAYER_COMMAND] Friend: /afk 
+2025-03-16 15:39:13 [INFO] [PLAYER_COMMAND] Friend: /getpos 
+2025-03-16 15:39:25 [INFO] [PLAYER_COMMAND] Friend: /help 2
+2025-03-16 15:39:40 [INFO] [PLAYER_COMMAND] Friend: /jump 
+2025-03-16 15:39:58 [INFO] [PLAYER_COMMAND] Friend: /kit 
+2025-03-16 15:40:01 [INFO] [PLAYER_COMMAND] Friend: /kit tools
+2025-03-16 15:40:01 [INFO] Kit is timed
+
+2025-03-16 15:40:20 [INFO] [PLAYER_COMMAND] Friend: /modgrp 
+2025-03-16 15:40:45 [INFO] [PLAYER_COMMAND] Friend: /kill 
+2025-03-16 15:40:50 [INFO] [PLAYER_COMMAND] Friend: /kill Friend
+2025-03-16 15:41:11 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 15:41:12 [INFO] Freed 90.37415313720703 MB.
+2025-03-16 15:41:17 [INFO] CONSOLE: Stopping the server..
+2025-03-16 15:41:17 [INFO] Stopping server
+2025-03-16 15:41:17 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-16 15:41:17 [INFO] Saving chunks
+2025-03-16 15:43:03 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 15:43:03 [INFO] Loading properties
+2025-03-16 15:43:03 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 15:43:03 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 15:43:03 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 15:43:03 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 15:43:03 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 15:43:03 [INFO] Preparing level "world"
+2025-03-16 15:43:03 [INFO] Preparing start region
+2025-03-16 15:43:03 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 15:43:04 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:43:04 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-03-16 15:43:04 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:43:04 [INFO] Done (0.073s)! For help, type "help" or "?"
+2025-03-16 15:43:04 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 15:43:04 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 15:43:09 [INFO] 143 recipes
+
+2025-03-16 15:43:09 [INFO] Friend [websocket] logged in with entity id 258
+2025-03-16 15:43:09 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-16 15:43:13 [INFO] [PLAYER_COMMAND] Friend: /jump 
+2025-03-16 15:43:13 [WARNING] Friend was denied access to command.
+2025-03-16 15:45:04 [INFO] [PLAYER_COMMAND] Friend: /help 
+2025-03-16 15:45:07 [INFO] [PLAYER_COMMAND] Friend: /help 2
+2025-03-16 15:45:13 [INFO] [PLAYER_COMMAND] Friend: /help 3
+2025-03-16 15:45:32 [INFO] [PLAYER_COMMAND] Friend: /world normal
+2025-03-16 15:45:33 [WARNING] Friend moved wrongly!
+2025-03-16 15:45:33 [INFO] Got position -1951.0, 70.0, -735.0
+
+2025-03-16 15:45:33 [INFO] Expected 57.30000001192093, 70.0, 215.30000001192093
+
+2025-03-16 15:45:38 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-03-16 15:46:19 [INFO] Friend lost connection: disconnect.quitting
+2025-03-16 15:46:20 [INFO] Freed 268.24169158935547 MB.
+2025-03-16 15:46:30 [INFO] CONSOLE: Stopping the server..
+2025-03-16 15:46:30 [INFO] Stopping server
+2025-03-16 15:46:30 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-16 15:46:30 [INFO] Saving chunks
+2025-03-16 15:52:17 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 15:52:17 [INFO] Loading properties
+2025-03-16 15:52:17 [INFO] Starting websocket server on: /192.168.86.34:25565
+2025-03-16 15:52:17 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 15:52:17 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 15:52:17 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 15:52:17 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 15:52:17 [INFO] Preparing level "world"
+2025-03-16 15:52:17 [INFO] Preparing start region
+2025-03-16 15:52:17 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 15:52:17 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:52:17 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-03-16 15:52:17 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 15:52:17 [INFO] Done (0.073s)! For help, type "help" or "?"
+2025-03-16 15:52:17 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 15:52:17 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 15:54:44 [INFO] CONSOLE: Stopping the server..
+2025-03-16 15:54:44 [INFO] Stopping server
+2025-03-16 15:54:44 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-16 15:54:44 [INFO] Saving chunks
+2025-03-16 15:55:11 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 15:55:11 [INFO] Loading properties
+2025-03-16 15:55:11 [SEVERE] No vanilla or websocket addresses are defined!
+2025-03-16 15:55:11 [SEVERE] Server will not start
+2025-03-16 15:55:11 [INFO] Stopping server
+2025-03-16 16:24:19 [INFO] Starting minecraft server version Beta 1.3
+2025-03-16 16:24:19 [INFO] Loading properties
+2025-03-16 16:24:19 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-16 16:24:19 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-16 16:24:19 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-16 16:24:19 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-16 16:24:19 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-16 16:24:19 [INFO] Preparing level "world"
+2025-03-16 16:24:19 [INFO] Preparing start region
+2025-03-16 16:24:20 [INFO] Loading Eaglercraft Bukkit...
+2025-03-16 16:24:20 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 16:24:20 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-03-16 16:24:20 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-16 16:24:20 [INFO] Done (0.075s)! For help, type "help" or "?"
+2025-03-16 16:24:20 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-16 16:24:20 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-16 16:24:24 [INFO] CONSOLE: Stopping the server..
+2025-03-16 16:24:24 [INFO] Stopping server
+2025-03-16 16:24:24 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-16 16:24:24 [INFO] Saving chunks
+2025-03-17 15:50:03 [INFO] Starting minecraft server version Beta 1.3
+2025-03-17 15:50:03 [INFO] Loading properties
+2025-03-17 15:50:03 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-17 15:50:03 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-17 15:50:03 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-17 15:50:03 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-17 15:50:03 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-17 15:50:03 [INFO] Preparing level "world"
+2025-03-17 15:50:03 [INFO] Preparing start region
+2025-03-17 15:50:03 [INFO] Loading Eaglercraft Bukkit...
+2025-03-17 15:50:03 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-17 15:50:03 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-03-17 15:50:03 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-17 15:50:03 [INFO] Done (0.073s)! For help, type "help" or "?"
+2025-03-17 15:50:03 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-17 15:50:03 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-17 15:50:22 [INFO] 143 recipes
+
+2025-03-17 15:50:22 [INFO] Friend [websocket] logged in with entity id 165
+2025-03-17 15:50:22 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-17 15:50:37 [INFO] [PLAYER_COMMAND] Friend: /help 
+2025-03-17 15:51:11 [INFO] [PLAYER_COMMAND] Friend: /antioch 
+2025-03-17 15:51:21 [INFO] [PLAYER_COMMAND] Friend: /antioch 
+2025-03-17 15:51:34 [INFO] [PLAYER_COMMAND] Friend: /broadcast hellol
+2025-03-17 15:51:45 [INFO] [PLAYER_COMMAND] Friend: /essentials 
+2025-03-17 15:53:04 [INFO] [PLAYER_COMMAND] Friend: /help 2
+2025-03-17 15:53:11 [INFO] [PLAYER_COMMAND] Friend: /gc 
+2025-03-17 15:53:34 [INFO] [PLAYER_COMMAND] Friend: /me 
+2025-03-17 15:53:40 [INFO] [PLAYER_COMMAND] Friend: /me awesome!
+2025-03-17 15:53:43 [INFO] [PLAYER_COMMAND] Friend: /me 
+2025-03-17 15:54:04 [INFO] [PLAYER_COMMAND] Friend: /help 3
+2025-03-17 15:54:10 [INFO] [PLAYER_COMMAND] Friend: /whois 
+2025-03-17 15:54:17 [INFO] [PLAYER_COMMAND] Friend: /nuble 
+2025-03-17 15:54:44 [INFO] [PLAYER_COMMAND] Friend: /spawnmob 
+2025-03-17 15:54:53 [INFO] [PLAYER_COMMAND] Friend: /spawnmob Pig
+2025-03-17 15:55:10 [INFO] Friend lost connection: disconnect.quitting
+2025-03-17 15:55:11 [INFO] Freed 273.4186477661133 MB.
+2025-03-17 15:55:24 [INFO] CONSOLE: Stopping the server..
+2025-03-17 15:55:24 [INFO] Stopping server
+2025-03-17 15:55:24 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-17 15:55:24 [INFO] Saving chunks
+2025-03-17 15:58:57 [INFO] Starting minecraft server version Beta 1.3
+2025-03-17 15:58:57 [INFO] Loading properties
+2025-03-17 15:58:57 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-17 15:58:57 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-17 15:58:57 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-17 15:58:57 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-17 15:58:57 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-17 15:58:57 [INFO] Preparing level "world"
+2025-03-17 15:58:57 [INFO] Preparing start region
+2025-03-17 15:58:57 [INFO] Loading Eaglercraft Bukkit...
+2025-03-17 15:58:58 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-17 15:58:58 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-03-17 15:58:58 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-17 15:58:58 [INFO] Done (0.071s)! For help, type "help" or "?"
+2025-03-17 15:58:58 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-17 15:58:58 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-17 15:59:18 [INFO] 143 recipes
+
+2025-03-17 15:59:18 [INFO] Friend [websocket] logged in with entity id 141
+2025-03-17 15:59:18 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-17 15:59:22 [INFO] [PLAYER_COMMAND] Friend: /help 
+2025-03-17 15:59:28 [INFO] [PLAYER_COMMAND] Friend: /kit tools
+2025-03-17 15:59:28 [INFO] Kit is timed
+
+2025-03-17 15:59:34 [INFO] [PLAYER_COMMAND] Friend: /help 2
+2025-03-17 15:59:41 [INFO] [PLAYER_COMMAND] Friend: /motd 
+2025-03-17 15:59:51 [INFO] [PLAYER_COMMAND] Friend: /whois Friend
+2025-03-17 16:00:09 [INFO] [PLAYER_COMMAND] Friend: /help 2
+2025-03-17 16:00:12 [INFO] [PLAYER_COMMAND] Friend: /rules 
+2025-03-17 16:00:15 [INFO] [PLAYER_COMMAND] Friend: /help 3
+2025-03-17 16:00:29 [INFO] Friend lost connection: disconnect.quitting
+2025-03-17 16:00:30 [INFO] Freed 77.36737823486328 MB.
+2025-03-17 16:00:36 [INFO] CONSOLE: Stopping the server..
+2025-03-17 16:00:36 [INFO] Stopping server
+2025-03-17 16:00:36 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-17 16:00:36 [INFO] Saving chunks
+2025-03-23 09:15:27 [INFO] Starting minecraft server version Beta 1.3
+2025-03-23 09:15:27 [INFO] Loading properties
+2025-03-23 09:15:27 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-03-23 09:15:27 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-03-23 09:15:27 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-03-23 09:15:27 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-03-23 09:15:27 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-03-23 09:15:27 [INFO] Preparing level "world"
+2025-03-23 09:15:27 [INFO] Preparing start region
+2025-03-23 09:15:27 [INFO] Loading Eaglercraft Bukkit...
+2025-03-23 09:15:28 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-23 09:15:28 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-03-23 09:15:28 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-03-23 09:15:28 [INFO] Done (0.075s)! For help, type "help" or "?"
+2025-03-23 09:15:28 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-03-23 09:15:28 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-03-23 09:15:33 [INFO] 143 recipes
+
+2025-03-23 09:15:33 [INFO] keyboardspam420 [websocket] logged in with entity id 141
+2025-03-23 09:15:33 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-03-23 09:15:37 [INFO] [PLAYER_COMMAND] keyboardspam420: /help 
+2025-03-23 09:15:51 [INFO] [PLAYER_COMMAND] keyboardspam420: /help 4
+2025-03-23 09:15:57 [INFO] [PLAYER_COMMAND] keyboardspam420: /tree 
+2025-03-23 09:16:07 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-03-23 09:16:08 [INFO] Freed 45.57769775390625 MB.
+2025-03-23 09:16:15 [INFO] CONSOLE: Stopping the server..
+2025-03-23 09:16:15 [INFO] Stopping server
+2025-03-23 09:16:15 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-03-23 09:16:15 [INFO] Saving chunks
+2025-04-20 11:21:00 [INFO] Starting minecraft server version Beta 1.3
+2025-04-20 11:21:00 [INFO] Loading properties
+2025-04-20 11:21:00 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-04-20 11:21:00 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-04-20 11:21:00 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-04-20 11:21:00 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-04-20 11:21:00 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-04-20 11:21:00 [INFO] Preparing level "world"
+2025-04-20 11:21:00 [INFO] Preparing start region
+2025-04-20 11:21:00 [INFO] Loading Eaglercraft Bukkit...
+2025-04-20 11:21:01 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-04-20 11:21:01 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-04-20 11:21:01 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-04-20 11:21:01 [INFO] Done (0.098s)! For help, type "help" or "?"
+2025-04-20 11:21:01 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-04-20 11:21:01 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-04-20 11:21:05 [INFO] 143 recipes
+
+2025-04-20 11:21:05 [INFO] keyboardspam420 [websocket] logged in with entity id 228
+2025-04-20 11:21:05 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-04-20 11:21:16 [INFO] keyboardspam420 lost connection: disconnect.quitting
+2025-04-20 11:21:17 [INFO] Freed 121.67733001708984 MB.
+2025-04-20 11:21:23 [INFO] CONSOLE: Stopping the server..
+2025-04-20 11:21:23 [INFO] Stopping server
+2025-04-20 11:21:23 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-04-20 11:21:23 [INFO] Saving chunks
+2025-05-07 15:40:30 [INFO] Starting minecraft server version Beta 1.3
+2025-05-07 15:40:30 [INFO] Loading properties
+2025-05-07 15:40:30 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-05-07 15:40:30 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-05-07 15:40:30 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-05-07 15:40:30 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-05-07 15:40:30 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-05-07 15:40:30 [INFO] Preparing level "world"
+2025-05-07 15:40:30 [INFO] Preparing start region
+2025-05-07 15:40:30 [INFO] Loading Eaglercraft Bukkit...
+2025-05-07 15:40:31 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-07 15:40:31 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-05-07 15:40:31 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-07 15:40:31 [INFO] Done (0.093s)! For help, type "help" or "?"
+2025-05-07 15:40:31 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-05-07 15:40:31 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-05-07 15:40:44 [INFO] Disconnecting keyboardspam420 [websocket]: This username requires a password to join!
+2025-05-07 15:40:44 [INFO] keyboardspam420 [websocket] was kicked while logging in: disconnect.closed
+2025-05-07 15:41:02 [INFO] 143 recipes
+
+2025-05-07 15:41:02 [INFO] 555 [websocket] logged in with entity id 227
+2025-05-07 15:41:02 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:41:15 [INFO] 1, 0
+
+2025-05-07 15:41:15 [INFO] 555 used a portal and generated an exit portal.
+2025-05-07 15:41:23 [INFO] 555 lost connection: disconnect.quitting
+2025-05-07 15:41:24 [INFO] Freed 271.8167724609375 MB.
+2025-05-07 15:41:26 [INFO] 555 [websocket] logged in with entity id 6350
+2025-05-07 15:41:26 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:41:39 [INFO] 555 tried command: world-normal
+2025-05-07 15:41:46 [INFO] 555 tried command: world-normal
+2025-05-07 15:41:52 [INFO] [PLAYER_COMMAND] 555: /world normal
+2025-05-07 15:41:52 [WARNING] 555 moved wrongly!
+2025-05-07 15:41:52 [INFO] Got position -1551.0, 64.0, -847.0
+
+2025-05-07 15:41:52 [INFO] Expected 45.30000001192093, 64.0, 230.30000001192093
+
+2025-05-07 15:41:54 [INFO] 555 lost connection: disconnect.quitting
+2025-05-07 15:41:55 [INFO] Freed 242.30013275146484 MB.
+2025-05-07 15:41:57 [INFO] 555 [websocket] logged in with entity id 7658
+2025-05-07 15:41:57 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:42:04 [INFO] 555 lost connection: disconnect.closed
+2025-05-07 15:42:04 [INFO] 555 [websocket] logged in with entity id 11184
+2025-05-07 15:42:04 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:42:05 [INFO] Freed 42.77226257324219 MB.
+2025-05-07 15:42:05 [INFO] Freed 0.4827117919921875 MB.
+2025-05-07 15:42:12 [INFO] 555 lost connection: disconnect.closed
+2025-05-07 15:42:12 [INFO] 555 [websocket] logged in with entity id 15185
+2025-05-07 15:42:12 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:42:13 [INFO] Freed 29.915382385253906 MB.
+2025-05-07 15:42:13 [INFO] Freed -8.4686279296875E-4 MB.
+2025-05-07 15:42:20 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-05-07 15:42:20 [INFO] Loading Eaglercraft Bukkit...
+2025-05-07 15:42:20 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-07 15:42:20 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-05-07 15:42:20 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-07 15:42:21 [INFO] Reload complete.
+
+2025-05-07 15:42:24 [INFO] 555 lost connection: disconnect.closed
+2025-05-07 15:42:24 [INFO] 555 [websocket] logged in with entity id 20811
+2025-05-07 15:42:24 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:42:25 [INFO] Freed 59.545928955078125 MB.
+2025-05-07 15:42:25 [INFO] Freed 5.4168701171875E-4 MB.
+2025-05-07 15:42:28 [INFO] CONSOLE: Stopping the server..
+2025-05-07 15:42:28 [INFO] Stopping server
+2025-05-07 15:42:28 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-05-07 15:42:28 [INFO] Saving chunks
+2025-05-07 15:42:34 [INFO] Starting minecraft server version Beta 1.3
+2025-05-07 15:42:34 [INFO] Loading properties
+2025-05-07 15:42:34 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-05-07 15:42:34 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-05-07 15:42:34 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-05-07 15:42:34 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-05-07 15:42:34 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-05-07 15:42:34 [INFO] Preparing level "world"
+2025-05-07 15:42:34 [INFO] Preparing start region
+2025-05-07 15:42:34 [INFO] Loading Eaglercraft Bukkit...
+2025-05-07 15:42:34 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-07 15:42:34 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-05-07 15:42:34 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-07 15:42:34 [INFO] Done (0.076s)! For help, type "help" or "?"
+2025-05-07 15:42:35 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-05-07 15:42:35 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-05-07 15:42:40 [INFO] 143 recipes
+
+2025-05-07 15:42:40 [INFO] 555 [websocket] logged in with entity id 253
+2025-05-07 15:42:40 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:43:07 [INFO] CONSOLE: Opping 55
+2025-05-07 15:43:13 [INFO] CONSOLE: Opping 555
+2025-05-07 15:43:17 [INFO] CONSOLE: De-opping 55
+2025-05-07 15:43:22 [INFO] [PLAYER_COMMAND] 555: /help 
+2025-05-07 15:43:30 [INFO] [PLAYER_COMMAND] 555: /bigtree 
+2025-05-07 15:43:38 [INFO] [PLAYER_COMMAND] 555: /bigtree red
+2025-05-07 15:43:45 [INFO] [PLAYER_COMMAND] 555: /bigtree redwood
+2025-05-07 15:44:00 [INFO] [PLAYER_COMMAND] 555: /give 555 279
+2025-05-07 15:44:11 [INFO] [PLAYER_COMMAND] 555: /item 278
+2025-05-07 15:44:18 [INFO] [PLAYER_COMMAND] 555: /item 280
+2025-05-07 15:44:34 [INFO] [PLAYER_COMMAND] 555: /give 277
+2025-05-07 15:44:40 [INFO] [PLAYER_COMMAND] 555: /item 277
+2025-05-07 15:45:38 [INFO] [PLAYER_COMMAND] 555: /item 260
+2025-05-07 15:45:52 [INFO] [PLAYER_COMMAND] 555: /bigtree redwood
+2025-05-07 15:46:23 [INFO] [PLAYER_COMMAND] 555: /help 
+2025-05-07 15:46:38 [INFO] [PLAYER_COMMAND] 555: /broadcast HELLO EAGLER
+2025-05-07 15:46:50 [INFO] [PLAYER_COMMAND] 555: /afk 
+2025-05-07 15:46:58 [INFO] [PLAYER_COMMAND] 555: /afk 
+2025-05-07 15:47:03 [INFO] [PLAYER_COMMAND] 555: /list 
+2025-05-07 15:47:11 [INFO] [PLAYER_COMMAND] 555: /who 
+2025-05-07 15:47:14 [INFO] [PLAYER_COMMAND] 555: /help 2
+2025-05-07 15:47:23 [INFO] [PLAYER_COMMAND] 555: /jump 
+2025-05-07 15:47:32 [INFO] [PLAYER_COMMAND] 555: /jump 
+2025-05-07 15:48:00 [INFO] [PLAYER_COMMAND] 555: /item 276
+2025-05-07 15:49:55 [INFO] [PLAYER_COMMAND] 555: /bigtree redwood
+2025-05-07 15:50:17 [INFO] [PLAYER_COMMAND] 555: /bigtree 
+2025-05-07 15:50:25 [INFO] 555 issued server command: bigree tree
+2025-05-07 15:50:25 [INFO] Unknown console command. Type "help" for help.
+2025-05-07 15:50:32 [INFO] [PLAYER_COMMAND] 555: /bigtree tree
+2025-05-07 15:50:46 [INFO] 555 lost connection: disconnect.quitting
+2025-05-07 15:50:47 [INFO] Freed 312.19886016845703 MB.
+2025-05-07 15:51:08 [INFO] Disconnecting 555 [websocket]: This username requires a password to join!
+2025-05-07 15:51:08 [INFO] 555 [websocket] was kicked while logging in: disconnect.closed
+2025-05-07 15:51:14 [INFO] 555 [websocket] logged in with entity id 27955
+2025-05-07 15:51:14 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:51:26 [INFO] [PLAYER_COMMAND] 555: /help 
+2025-05-07 15:51:31 [INFO] [PLAYER_COMMAND] 555: /compass 
+2025-05-07 15:51:35 [INFO] [PLAYER_COMMAND] 555: /depth 
+2025-05-07 15:51:47 [INFO] [PLAYER_COMMAND] 555: /help 2
+2025-05-07 15:51:56 [INFO] [PLAYER_COMMAND] 555: /kit 
+2025-05-07 15:52:00 [INFO] [PLAYER_COMMAND] 555: /kit tools
+2025-05-07 15:52:00 [INFO] Kit is timed
+
+2025-05-07 15:52:09 [INFO] [PLAYER_COMMAND] 555: /list 
+2025-05-07 15:52:20 [INFO] [PLAYER_COMMAND] 555: /getpos 
+2025-05-07 15:52:38 [INFO] [PLAYER_COMMAND] 555: /help 3
+2025-05-07 15:52:42 [INFO] [PLAYER_COMMAND] 555: /mail 
+2025-05-07 15:52:51 [INFO] [PLAYER_COMMAND] 555: /r 
+2025-05-07 15:52:58 [INFO] [PLAYER_COMMAND] 555: /motd 
+2025-05-07 15:53:06 [INFO] [PLAYER_COMMAND] 555: /motd 
+2025-05-07 15:53:10 [INFO] [PLAYER_COMMAND] 555: /help 3
+2025-05-07 15:53:23 [INFO] [PLAYER_COMMAND] 555: /ping 
+2025-05-07 15:53:25 [INFO] [PLAYER_COMMAND] 555: /help 4
+2025-05-07 15:53:29 [INFO] [PLAYER_COMMAND] 555: /tree 
+2025-05-07 15:53:36 [INFO] [PLAYER_COMMAND] 555: /tree birch
+2025-05-07 15:53:57 [INFO] [PLAYER_COMMAND] 555: /item 259
+2025-05-07 15:54:08 [INFO] [PLAYER_COMMAND] 555: /item 326
+2025-05-07 15:54:13 [INFO] [PLAYER_COMMAND] 555: /item 327
+2025-05-07 15:56:18 [INFO] 555 lost connection: disconnect.quitting
+2025-05-07 15:56:19 [INFO] Freed 171.96904754638672 MB.
+2025-05-07 15:56:22 [INFO] 555 [websocket] logged in with entity id 59497
+2025-05-07 15:56:22 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:57:42 [INFO] 555 issued server command: spawn
+2025-05-07 15:57:42 [INFO] Unknown console command. Type "help" for help.
+2025-05-07 15:57:49 [INFO] [PLAYER_COMMAND] 555: /help 3
+2025-05-07 15:58:13 [INFO] bob [websocket] logged in with entity id 96718
+2025-05-07 15:58:13 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:58:16 [INFO] <bob> WG
+2025-05-07 15:58:21 [INFO] [PLAYER_COMMAND] 555: /msg bob hello
+2025-05-07 15:58:33 [INFO] [PLAYER_COMMAND] 555: /help 4
+2025-05-07 15:58:42 [INFO] <bob> r hi
+2025-05-07 15:58:45 [INFO] [PLAYER_COMMAND] bob: /r hi
+2025-05-07 15:58:59 [INFO] [PLAYER_COMMAND] 555: /world nether
+2025-05-07 15:58:59 [WARNING] 555 moved wrongly!
+2025-05-07 15:58:59 [INFO] Got position 1.0, 69.0, 1.0
+
+2025-05-07 15:58:59 [INFO] Expected -100.30000001192093, 66.20000004768372, -50.30000001192093
+
+2025-05-07 15:59:05 [INFO] [PLAYER_COMMAND] 555: /world normal
+2025-05-07 15:59:05 [WARNING] 555 moved wrongly!
+2025-05-07 15:59:05 [INFO] Got position 17.0, 75.0, 17.0
+
+2025-05-07 15:59:05 [INFO] Expected 40.30000001192093, 69.20000004768372, 220.30000001192093
+
+2025-05-07 15:59:16 [INFO] 555 lost connection: disconnect.quitting
+2025-05-07 15:59:17 [INFO] Freed 137.73149871826172 MB.
+2025-05-07 15:59:20 [INFO] 555 [websocket] logged in with entity id 106431
+2025-05-07 15:59:20 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-07 15:59:54 [INFO] [PLAYER_COMMAND] bob: /back 
+2025-05-07 16:00:01 [INFO] [PLAYER_COMMAND] 555: /help 4
+2025-05-07 16:00:06 [INFO] [PLAYER_COMMAND] 555: /top 
+2025-05-07 16:00:16 [INFO] [PLAYER_COMMAND] 555: /rules 
+2025-05-07 16:00:23 [INFO] [PLAYER_COMMAND] 555: /spawnmob 
+2025-05-07 16:00:30 [INFO] [PLAYER_COMMAND] 555: /spawnmob giant
+2025-05-07 16:00:44 [INFO] [PLAYER_COMMAND] 555: /item 276
+2025-05-07 16:01:00 [INFO] [PLAYER_COMMAND] 555: /help 4
+2025-05-07 16:01:06 [INFO] [PLAYER_COMMAND] 555: /time day
+2025-05-07 16:01:12 [INFO] 555 lost connection: disconnect.quitting
+2025-05-07 16:01:13 [INFO] Freed 69.25361633300781 MB.
+2025-05-07 16:01:17 [INFO] bob lost connection: disconnect.close
+2025-05-07 16:01:18 [INFO] Freed 40.37843322753906 MB.
+2025-05-07 16:01:20 [INFO] CONSOLE: Stopping the server..
+2025-05-07 16:01:20 [INFO] Stopping server
+2025-05-07 16:01:20 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-05-07 16:01:20 [INFO] Saving chunks
+2025-05-08 16:51:43 [INFO] Starting minecraft server version Beta 1.3
+2025-05-08 16:51:43 [INFO] Loading properties
+2025-05-08 16:51:43 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-05-08 16:51:43 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-05-08 16:51:43 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-05-08 16:51:43 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-05-08 16:51:43 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-05-08 16:51:43 [INFO] Preparing level "world"
+2025-05-08 16:51:43 [INFO] Preparing start region
+2025-05-08 16:51:43 [INFO] Loading Eaglercraft Bukkit...
+2025-05-08 16:51:44 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-08 16:51:44 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-05-08 16:51:44 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-08 16:51:44 [INFO] Done (0.094s)! For help, type "help" or "?"
+2025-05-08 16:51:44 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-05-08 16:51:44 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-05-08 16:51:48 [INFO] 143 recipes
+
+2025-05-08 16:51:48 [INFO] bob [websocket] logged in with entity id 313
+2025-05-08 16:51:48 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-08 16:51:51 [INFO] <bob> wg
+2025-05-08 16:52:08 [INFO] [PLAYER_COMMAND] bob: /help 
+2025-05-08 16:52:21 [INFO] [PLAYER_COMMAND] bob: /clearinventory 
+2025-05-08 16:52:27 [INFO] [PLAYER_COMMAND] bob: /kit tools
+2025-05-08 16:52:27 [INFO] Kit is timed
+
+2025-05-08 16:52:40 [INFO] bob lost connection: disconnect.quitting
+2025-05-08 16:52:41 [INFO] Freed 37.46021270751953 MB.
+2025-05-08 16:52:44 [INFO] CONSOLE: Stopping the server..
+2025-05-08 16:52:44 [INFO] Stopping server
+2025-05-08 16:52:44 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-05-08 16:52:44 [INFO] Saving chunks
+2025-05-08 16:53:44 [INFO] Starting minecraft server version Beta 1.3
+2025-05-08 16:53:44 [INFO] Loading properties
+2025-05-08 16:53:44 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-05-08 16:53:44 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-05-08 16:53:44 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-05-08 16:53:44 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-05-08 16:53:44 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-05-08 16:53:44 [INFO] Preparing level "world"
+2025-05-08 16:53:44 [INFO] Preparing start region
+2025-05-08 16:53:44 [INFO] Loading Eaglercraft Bukkit...
+2025-05-08 16:53:44 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-08 16:53:44 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-05-08 16:53:44 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-08 16:53:45 [INFO] Done (0.077s)! For help, type "help" or "?"
+2025-05-08 16:53:45 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-05-08 16:53:45 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-05-08 16:53:50 [INFO] 143 recipes
+
+2025-05-08 16:53:50 [INFO] bob [websocket] logged in with entity id 323
+2025-05-08 16:53:50 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-08 16:53:53 [INFO] [PLAYER_COMMAND] bob: /help 
+2025-05-08 16:54:05 [INFO] [PLAYER_COMMAND] bob: /help 2
+2025-05-08 16:54:12 [INFO] [PLAYER_COMMAND] bob: /motd 
+2025-05-08 16:54:18 [INFO] [PLAYER_COMMAND] bob: /item 
+2025-05-08 16:54:18 [WARNING] bob was denied access to command.
+2025-05-08 16:54:24 [INFO] [PLAYER_COMMAND] bob: /me 
+2025-05-08 16:54:28 [INFO] [PLAYER_COMMAND] bob: /me hi
+2025-05-08 16:54:30 [INFO] [PLAYER_COMMAND] bob: /me 
+2025-05-08 16:54:48 [INFO] [PLAYER_COMMAND] bob: /help 3
+2025-05-08 16:57:48 [INFO] bob lost connection: disconnect.quitting
+2025-05-08 16:57:49 [INFO] Freed 166.44170379638672 MB.
+2025-05-08 16:58:01 [INFO] CONSOLE: Stopping the server..
+2025-05-08 16:58:01 [INFO] Stopping server
+2025-05-08 16:58:01 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-05-08 16:58:01 [INFO] Saving chunks
+2025-05-08 16:58:10 [INFO] Starting minecraft server version Beta 1.3
+2025-05-08 16:58:10 [INFO] Loading properties
+2025-05-08 16:58:10 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-05-08 16:58:10 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-05-08 16:58:10 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-05-08 16:58:10 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-05-08 16:58:10 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-05-08 16:58:10 [INFO] Preparing level "world"
+2025-05-08 16:58:10 [INFO] Preparing start region
+2025-05-08 16:58:10 [SEVERE] java.lang.NullPointerException: Cannot invoke "org.bukkit.craftbukkit.CraftWorld.getBlockAt(int, int, int)" because the return value of "net.minecraft.server.WorldServer.getWorld()" is null
+
+2025-05-08 16:58:10 [SEVERE] 	at net.minecraft.server.BlockFlowing.a(BlockFlowing.java:32)
+
+2025-05-08 16:58:10 [SEVERE] 	at net.minecraft.server.WorldGenLiquids.a(SourceFile:36)
+
+2025-05-08 16:58:10 [SEVERE] 	at net.minecraft.server.ChunkProviderGenerate.a(SourceFile:577)
+
+2025-05-08 16:58:10 [SEVERE] 	at net.minecraft.server.ChunkProviderServer.a(ChunkProviderServer.java:167)
+
+2025-05-08 16:58:10 [SEVERE] 	at net.minecraft.server.ChunkProviderServer.d(ChunkProviderServer.java:95)
+
+2025-05-08 16:58:10 [SEVERE] 	at net.minecraft.server.ChunkProviderServer.b(ChunkProviderServer.java:109)
+
+2025-05-08 16:58:10 [SEVERE] 	at net.minecraft.server.World.c(World.java:202)
+
+2025-05-08 16:58:10 [SEVERE] 	at net.minecraft.server.World.getTypeId(World.java:145)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.World.isEmpty(World.java:149)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.World.a(World.java:117)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.WorldProvider.a(SourceFile:51)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.World.<init>(World.java:97)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.WorldServer.<init>(WorldServer.java:24)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:176)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:162)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:266)
+
+2025-05-08 16:58:11 [SEVERE] 	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+
+2025-05-08 16:58:11 [SEVERE] Unexpected exception
+java.lang.NullPointerException: Cannot invoke "org.bukkit.craftbukkit.CraftWorld.getBlockAt(int, int, int)" because the return value of "net.minecraft.server.WorldServer.getWorld()" is null
+	at net.minecraft.server.BlockFlowing.a(BlockFlowing.java:32)
+	at net.minecraft.server.WorldGenLiquids.a(SourceFile:36)
+	at net.minecraft.server.ChunkProviderGenerate.a(SourceFile:577)
+	at net.minecraft.server.ChunkProviderServer.a(ChunkProviderServer.java:167)
+	at net.minecraft.server.ChunkProviderServer.d(ChunkProviderServer.java:95)
+	at net.minecraft.server.ChunkProviderServer.b(ChunkProviderServer.java:109)
+	at net.minecraft.server.World.c(World.java:202)
+	at net.minecraft.server.World.getTypeId(World.java:145)
+	at net.minecraft.server.World.isEmpty(World.java:149)
+	at net.minecraft.server.World.a(World.java:117)
+	at net.minecraft.server.WorldProvider.a(SourceFile:51)
+	at net.minecraft.server.World.<init>(World.java:97)
+	at net.minecraft.server.WorldServer.<init>(WorldServer.java:24)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:176)
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:162)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:266)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-08 16:58:15 [INFO] Stopping server
+2025-05-08 16:58:18 [INFO] Starting minecraft server version Beta 1.3
+2025-05-08 16:58:18 [INFO] Loading properties
+2025-05-08 16:58:18 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-05-08 16:58:18 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-05-08 16:58:18 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-05-08 16:58:18 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-05-08 16:58:18 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-05-08 16:58:18 [INFO] Preparing level "world"
+2025-05-08 16:58:18 [INFO] Preparing start region
+2025-05-08 16:58:19 [INFO] Preparing spawn area: 28%
+2025-05-08 16:58:20 [INFO] Preparing spawn area: 61%
+2025-05-08 16:58:21 [INFO] Preparing spawn area: 81%
+2025-05-08 16:58:22 [INFO] Preparing spawn area: 97%
+2025-05-08 16:58:23 [INFO] Loading Eaglercraft Bukkit...
+2025-05-08 16:58:24 [INFO] Preparing spawn area for nether, 8%
+
+2025-05-08 16:58:25 [INFO] Preparing spawn area for nether, 16%
+
+2025-05-08 16:58:26 [INFO] Preparing spawn area for nether, 24%
+
+2025-05-08 16:58:27 [INFO] Preparing spawn area for nether, 36%
+
+2025-05-08 16:58:28 [INFO] Preparing spawn area for nether, 48%
+
+2025-05-08 16:58:29 [INFO] Preparing spawn area for nether, 57%
+
+2025-05-08 16:58:30 [INFO] Preparing spawn area for nether, 69%
+
+2025-05-08 16:58:31 [INFO] Preparing spawn area for nether, 81%
+
+2025-05-08 16:58:32 [INFO] Preparing spawn area for nether, 93%
+
+2025-05-08 16:58:33 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-08 16:58:33 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-05-08 16:58:33 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-05-08 16:58:33 [INFO] Done (1.495s)! For help, type "help" or "?"
+2025-05-08 16:58:33 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-05-08 16:58:33 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-05-08 16:58:38 [INFO] 143 recipes
+
+2025-05-08 16:58:38 [INFO] bob [websocket] logged in with entity id 1113
+2025-05-08 16:58:38 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-05-08 16:59:00 [INFO] [PLAYER_COMMAND] bob: /kit tools
+2025-05-08 16:59:00 [INFO] Kit is timed
+
+2025-05-08 16:59:44 [INFO] [PLAYER_COMMAND] bob: /help 
+2025-05-08 16:59:47 [INFO] [PLAYER_COMMAND] bob: /motd 
+2025-05-08 17:00:48 [INFO] bob lost connection: disconnect.quitting
+2025-05-08 17:00:49 [INFO] Freed 183.9517364501953 MB.
+2025-05-08 17:00:57 [INFO] CONSOLE: Stopping the server..
+2025-05-08 17:00:57 [INFO] Stopping server
+2025-05-08 17:00:57 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-05-08 17:00:57 [INFO] Saving chunks
+2025-08-15 12:07:32 [INFO] Starting minecraft server version Beta 1.3
+2025-08-15 12:07:32 [INFO] Loading properties
+2025-08-15 12:07:32 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-15 12:07:32 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-15 12:07:32 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-15 12:07:32 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-15 12:07:33 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-08-15 12:07:33 [INFO] Preparing level "world"
+2025-08-15 12:07:33 [INFO] Preparing start region
+2025-08-15 12:07:33 [INFO] Loading Eaglercraft Bukkit...
+2025-08-15 12:07:33 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-15 12:07:33 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-15 12:07:33 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-15 12:07:33 [INFO] Done (0.092s)! For help, type "help" or "?"
+2025-08-15 12:07:33 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-08-15 12:07:33 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-08-15 12:07:41 [INFO] To view help from the console, type "?".
+
+2025-08-15 12:07:43 [INFO] To run the server without a gui, start it like this:
+2025-08-15 12:07:43 [INFO]    java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+2025-08-15 12:07:43 [INFO] Console commands:
+2025-08-15 12:07:43 [INFO]    help  or  ?               shows this message
+2025-08-15 12:07:43 [INFO]    kick <player>             removes a player from the server
+2025-08-15 12:07:43 [INFO]    ban <player>              bans a player from the server
+2025-08-15 12:07:43 [INFO]    pardon <player>           pardons a banned player so that they can connect again
+2025-08-15 12:07:43 [INFO]    ban-ip <ip>               bans an IP address from the server
+2025-08-15 12:07:43 [INFO]    pardon-ip <ip>            pardons a banned IP address so that they can connect again
+2025-08-15 12:07:43 [INFO]    op <player>               turns a player into an op
+2025-08-15 12:07:43 [INFO]    deop <player>             removes op status from a player
+2025-08-15 12:07:43 [INFO]    tp <player1> <player2>    moves one player to the same location as another player
+2025-08-15 12:07:43 [INFO]    give <player> <id> [num]  gives a player a resource
+2025-08-15 12:07:43 [INFO]    tell <player> <message>   sends a private message to a player
+2025-08-15 12:07:43 [INFO]    stop                      gracefully stops the server
+2025-08-15 12:07:43 [INFO]    save-all                  forces a server-wide level save
+2025-08-15 12:07:43 [INFO]    save-off                  disables terrain saving (useful for backup scripts)
+2025-08-15 12:07:43 [INFO]    save-on                   re-enables terrain saving
+2025-08-15 12:07:43 [INFO]    list                      lists all currently connected players
+2025-08-15 12:07:43 [INFO]    say <message>             broadcasts a message to all players
+2025-08-15 12:07:43 [INFO]    time <add|set> <amount>   adds to or sets the world time (0-24000)
+2025-08-15 12:07:47 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+
+2025-08-15 12:07:47 [INFO] This server is also sporting some funky dev build of Bukkit!
+
+2025-08-16 23:43:38 [INFO] Starting minecraft server version Beta 1.3
+2025-08-16 23:43:38 [INFO] Loading properties
+2025-08-16 23:43:38 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-16 23:43:38 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-16 23:43:38 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-16 23:43:38 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-16 23:43:38 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-08-16 23:43:38 [INFO] Preparing level "world"
+2025-08-16 23:43:38 [INFO] Preparing start region
+2025-08-16 23:43:38 [INFO] Loading Eaglercraft Bukkit...
+2025-08-16 23:43:38 [SEVERE] Could not load plugins\nSpleef.jar in plugins: null
+org.bukkit.plugin.InvalidPluginException
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:80)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:129)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:94)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:67)
+	at net.minecraft.server.MinecraftServer.e(MinecraftServer.java:226)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:214)
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:162)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:266)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/configuration/Configuration
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:72)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.configuration.Configuration
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:30)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 11 more
+2025-08-16 23:43:38 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-16 23:43:38 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-16 23:43:38 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-16 23:43:39 [INFO] Done (0.092s)! For help, type "help" or "?"
+2025-08-16 23:43:39 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-08-16 23:43:39 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-08-16 23:43:47 [INFO] CONSOLE: Stopping the server..
+2025-08-16 23:43:47 [INFO] Stopping server
+2025-08-16 23:43:47 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-08-16 23:43:47 [INFO] Saving chunks
+2025-08-16 23:44:22 [INFO] Starting minecraft server version Beta 1.3
+2025-08-16 23:44:22 [INFO] Loading properties
+2025-08-16 23:44:22 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-16 23:44:22 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-16 23:44:22 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-16 23:44:22 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-16 23:44:22 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-08-16 23:44:22 [INFO] Preparing level "world"
+2025-08-16 23:44:22 [INFO] Preparing start region
+2025-08-16 23:44:23 [INFO] Loading Eaglercraft Bukkit...
+2025-08-16 23:44:23 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-16 23:44:23 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-16 23:44:23 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-16 23:44:23 [INFO] Done (0.078s)! For help, type "help" or "?"
+2025-08-16 23:44:23 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-08-16 23:44:23 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-08-16 23:44:26 [INFO] CONSOLE: Stopping the server..
+2025-08-16 23:44:26 [INFO] Stopping server
+2025-08-16 23:44:26 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-08-16 23:44:26 [INFO] Saving chunks
+2025-08-27 17:04:28 [INFO] Starting minecraft server version Beta 1.3
+2025-08-27 17:04:28 [INFO] Loading properties
+2025-08-27 17:04:28 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-27 17:04:28 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-27 17:04:28 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-27 17:04:28 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-27 17:04:28 [INFO] Starting vanilla server on: /192.168.86.23:25565
+2025-08-27 17:04:28 [WARNING] **** FAILED TO BIND TO PORT!
+2025-08-27 17:04:28 [WARNING] The exception was: java.net.BindException: Address already in use: bind
+2025-08-27 17:04:28 [WARNING] Perhaps a server is already running on that port?
+2025-08-27 17:04:28 [INFO] Stopping server
+2025-08-27 17:05:31 [INFO] Starting minecraft server version Beta 1.3
+2025-08-27 17:05:31 [INFO] Loading properties
+2025-08-27 17:05:31 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-27 17:05:31 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-27 17:05:31 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-27 17:05:31 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-27 17:05:31 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-08-27 17:05:31 [INFO] Preparing level "world"
+2025-08-27 17:05:31 [INFO] Preparing start region
+2025-08-27 17:05:31 [INFO] Loading Eaglercraft Bukkit...
+2025-08-27 17:05:32 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-27 17:05:32 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-27 17:05:32 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-27 17:05:32 [INFO] Done (0.093s)! For help, type "help" or "?"
+2025-08-27 17:05:32 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-08-27 17:05:32 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-08-27 17:08:59 [INFO] 143 recipes
+
+2025-08-27 17:08:59 [INFO] Trump [websocket] logged in with entity id 141
+2025-08-27 17:08:59 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-27 17:09:36 [INFO] Trump lost connection: disconnect.quitting
+2025-08-27 17:09:37 [INFO] Freed 26.300430297851562 MB.
+2025-08-27 17:10:21 [INFO] Trump [websocket] logged in with entity id 594
+2025-08-27 17:10:21 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-27 17:10:34 [INFO] Trump tried command: set=password Trump
+2025-08-27 17:10:53 [INFO] Trump lost connection: disconnect.quitting
+2025-08-27 17:10:54 [INFO] Freed 203.76953887939453 MB.
+2025-08-27 17:10:56 [INFO] CONSOLE: Stopping the server..
+2025-08-27 17:10:56 [INFO] Stopping server
+2025-08-27 17:10:56 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-08-27 17:10:56 [INFO] Saving chunks
+2025-08-31 12:02:33 [INFO] Starting minecraft server version Beta 1.3
+2025-08-31 12:02:33 [INFO] Loading properties
+2025-08-31 12:02:33 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-31 12:02:33 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-31 12:02:33 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-31 12:02:33 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-31 12:02:33 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-08-31 12:02:33 [INFO] Preparing level "world"
+2025-08-31 12:02:33 [INFO] Preparing start region
+2025-08-31 12:02:33 [INFO] Loading Eaglercraft Bukkit...
+2025-08-31 12:02:34 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 12:02:34 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-31 12:02:34 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 12:02:34 [INFO] Done (0.091s)! For help, type "help" or "?"
+2025-08-31 12:02:34 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-08-31 12:02:34 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-08-31 12:04:02 [INFO] CONSOLE: Stopping the server..
+2025-08-31 12:04:02 [INFO] Stopping server
+2025-08-31 12:04:02 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-08-31 12:04:02 [INFO] Saving chunks
+2025-08-31 14:47:11 [INFO] Starting minecraft server version Beta 1.3
+2025-08-31 14:47:11 [INFO] Loading properties
+2025-08-31 14:47:11 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-31 14:47:11 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-31 14:47:11 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-31 14:47:11 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-31 14:47:11 [INFO] Starting vanilla server on: /192.168.86.23:25565
+2025-08-31 14:47:11 [WARNING] **** FAILED TO BIND TO PORT!
+2025-08-31 14:47:11 [WARNING] The exception was: java.net.BindException: Address already in use: bind
+2025-08-31 14:47:11 [WARNING] Perhaps a server is already running on that port?
+2025-08-31 14:47:11 [INFO] Stopping server
+2025-08-31 14:48:10 [INFO] Starting minecraft server version Beta 1.3
+2025-08-31 14:48:10 [INFO] Loading properties
+2025-08-31 14:48:10 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-31 14:48:10 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-31 14:48:10 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-31 14:48:10 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-31 14:48:10 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-08-31 14:48:10 [INFO] Preparing level "world"
+2025-08-31 14:48:10 [INFO] Preparing start region
+2025-08-31 14:48:10 [INFO] Loading Eaglercraft Bukkit...
+2025-08-31 14:48:11 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 14:48:11 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-31 14:48:11 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 14:48:11 [INFO] Done (0.076s)! For help, type "help" or "?"
+2025-08-31 14:48:11 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-08-31 14:48:11 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-08-31 14:54:31 [INFO] 143 recipes
+
+2025-08-31 14:54:31 [INFO] DarvlerEagl30 [websocket] logged in with entity id 134
+2025-08-31 14:54:31 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 14:56:12 [INFO] Trump [websocket] logged in with entity id 29669
+2025-08-31 14:56:12 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 14:57:14 [INFO] [PLAYER_COMMAND] Trump: /kit tools
+2025-08-31 14:57:14 [INFO] Kit is timed
+
+2025-08-31 14:57:25 [INFO] [PLAYER_COMMAND] Trump: /kit tools
+2025-08-31 14:57:25 [INFO] Kit is timed
+
+2025-08-31 14:57:36 [INFO] [PLAYER_COMMAND] Trump: /kit tools
+2025-08-31 14:57:36 [INFO] Kit is timed
+
+2025-08-31 14:57:38 [INFO] [PLAYER_COMMAND] Trump: /kit tools
+2025-08-31 14:57:38 [INFO] Kit is timed
+
+2025-08-31 14:57:52 [INFO] [PLAYER_COMMAND] Trump: /kit tools
+2025-08-31 14:57:52 [INFO] Kit is timed
+
+2025-08-31 14:58:57 [INFO] <Trump> hi
+2025-08-31 14:59:01 [INFO] <DarvlerEagl30> hey!
+2025-08-31 14:59:07 [INFO] <DarvlerEagl30> wassup
+2025-08-31 14:59:42 [INFO] <Trump> spawn protection
+2025-08-31 14:59:53 [INFO] [PLAYER_COMMAND] Trump: /kit tools
+2025-08-31 14:59:53 [INFO] Kit is timed
+
+2025-08-31 15:00:33 [INFO] Unknown console command. Type "help" for help.
+2025-08-31 15:00:38 [INFO] [CONSOLE] hello
+2025-08-31 15:00:47 [INFO] [PLAYER_COMMAND] DarvlerEagl30: /back 
+2025-08-31 15:00:59 [INFO] [PLAYER_COMMAND] Trump: /kit tools
+2025-08-31 15:00:59 [INFO] Kit is timed
+
+2025-08-31 15:01:14 [INFO] [PLAYER_COMMAND] DarvlerEagl30: /help 
+2025-08-31 15:01:27 [INFO] [PLAYER_COMMAND] Trump: /list 
+2025-08-31 15:03:49 [INFO] [PLAYER_COMMAND] Trump: /list 
+2025-08-31 15:04:18 [INFO] [PLAYER_COMMAND] Trump: /kit tools
+2025-08-31 15:04:18 [INFO] Kit is timed
+
+2025-08-31 15:04:24 [INFO] DarvlerEagl30 lost connection: disconnect.close
+2025-08-31 15:04:25 [INFO] Freed 194.94719696044922 MB.
+2025-08-31 15:04:27 [INFO] Trump lost connection: disconnect.quitting
+2025-08-31 15:04:28 [INFO] Freed 24.257919311523438 MB.
+2025-08-31 15:04:30 [INFO] CONSOLE: Stopping the server..
+2025-08-31 15:04:30 [INFO] Stopping server
+2025-08-31 15:04:30 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-08-31 15:04:30 [INFO] Saving chunks
+2025-08-31 15:07:13 [INFO] Starting minecraft server version Beta 1.3
+2025-08-31 15:07:13 [INFO] Loading properties
+2025-08-31 15:07:13 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-31 15:07:13 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-31 15:07:13 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-31 15:07:13 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-31 15:07:13 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-08-31 15:07:13 [INFO] Preparing level "world"
+2025-08-31 15:07:13 [INFO] Preparing start region
+2025-08-31 15:07:13 [INFO] Loading Eaglercraft Bukkit...
+2025-08-31 15:07:13 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 15:07:13 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-31 15:07:13 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 15:07:14 [INFO] Done (0.079s)! For help, type "help" or "?"
+2025-08-31 15:07:14 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-08-31 15:07:14 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-08-31 15:08:02 [INFO] 143 recipes
+
+2025-08-31 15:08:02 [INFO] Friend_2 [websocket] logged in with entity id 137
+2025-08-31 15:08:02 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 15:08:03 [INFO] Friend_1 [websocket] logged in with entity id 180
+2025-08-31 15:08:03 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 15:08:46 [INFO] [PLAYER_COMMAND] Friend_1: /back 
+2025-08-31 15:08:46 [WARNING] Friend_1 was denied access to command.
+2025-08-31 15:08:49 [INFO] [PLAYER_COMMAND] Friend_1: /help 
+2025-08-31 15:08:56 [INFO] [PLAYER_COMMAND] Friend_1: /getpos 
+2025-08-31 15:08:58 [INFO] [PLAYER_COMMAND] Friend_1: /rules 
+2025-08-31 15:09:13 [INFO] Friend_1 lost connection: disconnect.quitting
+2025-08-31 15:09:14 [INFO] Freed 192.97472381591797 MB.
+2025-08-31 15:09:24 [INFO] Friend_2 lost connection: disconnect.quitting
+2025-08-31 15:09:25 [INFO] Freed -0.001953125 MB.
+2025-08-31 15:10:31 [INFO] Friend_1 [websocket] logged in with entity id 752
+2025-08-31 15:10:31 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 15:11:06 [INFO] Friend_1 lost connection: disconnect.quitting
+2025-08-31 15:11:07 [INFO] Freed 243.3596649169922 MB.
+2025-08-31 15:11:11 [INFO] Friend_1 [websocket] logged in with entity id 1005
+2025-08-31 15:11:11 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 15:11:12 [INFO] Friend_1 lost connection: disconnect.quitting
+2025-08-31 15:11:13 [INFO] Freed 34.98027801513672 MB.
+2025-08-31 15:11:19 [INFO] Friend_1 [websocket] logged in with entity id 1013
+2025-08-31 15:11:19 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 15:12:05 [INFO] <Friend_1> t
+2025-08-31 15:12:10 [INFO] Friend_1 lost connection: disconnect.quitting
+2025-08-31 15:12:11 [INFO] Freed 223.4641342163086 MB.
+2025-08-31 15:12:13 [INFO] Friend_1 [websocket] logged in with entity id 3795
+2025-08-31 15:12:13 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 15:12:19 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-08-31 15:12:19 [INFO] Loading Eaglercraft Bukkit...
+2025-08-31 15:12:19 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 15:12:19 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-31 15:12:19 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 15:12:19 [INFO] Reload complete.
+
+2025-08-31 15:12:23 [INFO] Unknown console command. Type "help" for help.
+2025-08-31 15:12:26 [INFO] CONSOLE: Stopping the server..
+2025-08-31 15:12:26 [INFO] Stopping server
+2025-08-31 15:12:26 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-08-31 15:12:26 [INFO] Saving chunks
+2025-08-31 15:12:29 [INFO] Starting minecraft server version Beta 1.3
+2025-08-31 15:12:29 [INFO] Loading properties
+2025-08-31 15:12:29 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-08-31 15:12:29 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-08-31 15:12:29 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-08-31 15:12:29 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-08-31 15:12:29 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-08-31 15:12:29 [INFO] Preparing level "world"
+2025-08-31 15:12:29 [INFO] Preparing start region
+2025-08-31 15:12:30 [INFO] Loading Eaglercraft Bukkit...
+2025-08-31 15:12:30 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 15:12:30 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-08-31 15:12:30 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-08-31 15:12:30 [INFO] Done (0.080s)! For help, type "help" or "?"
+2025-08-31 15:12:30 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-08-31 15:12:30 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-08-31 15:12:34 [INFO] Disconnecting Friend_1 [websocket]: This username requires a password to join!
+2025-08-31 15:12:34 [INFO] Friend_1 [websocket] was kicked while logging in: disconnect.closed
+2025-08-31 15:12:40 [INFO] Disconnecting Friend_1 [websocket]: Wrong password!
+2025-08-31 15:12:40 [INFO] Friend_1 [websocket] was kicked while logging in: disconnect.closed
+2025-08-31 15:12:46 [INFO] 143 recipes
+
+2025-08-31 15:12:46 [INFO] Friend_1 [websocket] logged in with entity id 128
+2025-08-31 15:12:46 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2025-08-31 15:12:57 [INFO] Friend_1 lost connection: disconnect.quitting
+2025-08-31 15:12:58 [INFO] Freed 33.179962158203125 MB.
+2025-08-31 15:13:02 [INFO] CONSOLE: Stopping the server..
+2025-08-31 15:13:02 [INFO] Stopping server
+2025-08-31 15:13:02 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-08-31 15:13:02 [INFO] Saving chunks
+2025-11-27 11:17:41 [INFO] Starting minecraft server version Beta 1.3
+2025-11-27 11:17:41 [INFO] Loading properties
+2025-11-27 11:17:41 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-11-27 11:17:41 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2025-11-27 11:17:41 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2025-11-27 11:17:41 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-11-27 11:17:42 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-11-27 11:17:47 [INFO] Preparing level "world"
+2025-11-27 11:17:47 [INFO] Preparing start region
+2025-11-27 11:17:48 [INFO] Loading Eaglercraft Bukkit...
+2025-11-27 11:17:48 [SEVERE] Error, could not load 'passDB.dat' because it's not a Eag!BPsDB# file
+2025-11-27 11:17:48 [SEVERE] The password database 'passDB.dat' was corrupt, it will be reset
+2025-11-27 11:17:48 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:17:48 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-11-27 11:17:48 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:17:49 [INFO] Done (0.126s)! For help, type "help" or "?"
+2025-11-27 11:17:49 [INFO] Crash Loop Detector is Running! (30sec)
+2025-11-27 11:17:49 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+2025-11-27 11:19:02 [INFO] Starting minecraft server version Beta 1.3
+2025-11-27 11:19:02 [INFO] Loading properties
+2025-11-27 11:19:02 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-11-27 11:19:02 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-11-27 11:19:02 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-11-27 11:19:02 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-11-27 11:19:02 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-11-27 11:19:02 [INFO] Preparing level "world"
+2025-11-27 11:19:02 [INFO] Preparing start region
+2025-11-27 11:19:02 [INFO] Loading Eaglercraft Bukkit...
+2025-11-27 11:19:03 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:19:03 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-11-27 11:19:03 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:19:03 [INFO] Done (0.078s)! For help, type "help" or "?"
+2025-11-27 11:19:03 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-11-27 11:19:03 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-11-27 11:19:16 [INFO] CONSOLE: Stopping the server..
+2025-11-27 11:19:16 [INFO] Stopping server
+2025-11-27 11:19:16 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-11-27 11:19:16 [INFO] Saving chunks
+2025-11-27 11:19:59 [INFO] Starting minecraft server version Beta 1.3
+2025-11-27 11:19:59 [INFO] Loading properties
+2025-11-27 11:19:59 [INFO] Starting websocket server on: /0.0.0.0:25565
+2025-11-27 11:19:59 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2025-11-27 11:19:59 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2025-11-27 11:19:59 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-11-27 11:19:59 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-11-27 11:19:59 [INFO] Preparing level "world"
+2025-11-27 11:19:59 [INFO] Preparing start region
+2025-11-27 11:19:59 [INFO] Loading Eaglercraft Bukkit...
+2025-11-27 11:19:59 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:19:59 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-11-27 11:19:59 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:19:59 [INFO] Done (0.077s)! For help, type "help" or "?"
+2025-11-27 11:20:00 [INFO] Crash Loop Detector is Running! (30sec)
+2025-11-27 11:20:00 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+2025-11-27 11:20:50 [INFO] Starting minecraft server version Beta 1.3
+2025-11-27 11:20:50 [INFO] Loading properties
+2025-11-27 11:20:50 [SEVERE] No vanilla or websocket addresses are defined!
+2025-11-27 11:20:50 [SEVERE] Server will not start
+2025-11-27 11:20:50 [INFO] Stopping server
+2025-11-27 11:21:20 [INFO] Starting minecraft server version Beta 1.3
+2025-11-27 11:21:20 [INFO] Loading properties
+2025-11-27 11:21:20 [SEVERE] No vanilla or websocket addresses are defined!
+2025-11-27 11:21:20 [SEVERE] Server will not start
+2025-11-27 11:21:20 [INFO] Stopping server
+2025-11-27 11:21:51 [INFO] Starting minecraft server version Beta 1.3
+2025-11-27 11:21:51 [INFO] Loading properties
+2025-11-27 11:21:51 [INFO] Starting websocket server on: /127.0.0.1:25565
+2025-11-27 11:21:51 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-11-27 11:21:51 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-11-27 11:21:51 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-11-27 11:21:51 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-11-27 11:21:51 [INFO] Preparing level "world"
+2025-11-27 11:21:51 [INFO] Preparing start region
+2025-11-27 11:21:52 [INFO] Loading Eaglercraft Bukkit...
+2025-11-27 11:21:52 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:21:52 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-11-27 11:21:52 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:21:52 [INFO] Done (0.076s)! For help, type "help" or "?"
+2025-11-27 11:21:52 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-11-27 11:21:52 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-11-27 11:22:01 [INFO] CONSOLE: Stopping the server..
+2025-11-27 11:22:01 [INFO] Stopping server
+2025-11-27 11:22:01 [WARNING] EssentialsProtect Disabled, protection deactivated
+2025-11-27 11:22:01 [INFO] Saving chunks
+2025-11-27 11:22:05 [INFO] Starting minecraft server version Beta 1.3
+2025-11-27 11:22:05 [INFO] Loading properties
+2025-11-27 11:22:05 [INFO] Starting websocket server on: /127.0.0.1:25565
+2025-11-27 11:22:05 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2025-11-27 11:22:05 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2025-11-27 11:22:05 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-11-27 11:22:05 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-11-27 11:22:05 [INFO] Preparing level "world"
+2025-11-27 11:22:05 [INFO] Preparing start region
+2025-11-27 11:22:05 [INFO] Loading Eaglercraft Bukkit...
+2025-11-27 11:22:05 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:22:05 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-11-27 11:22:05 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:22:06 [INFO] Done (0.078s)! For help, type "help" or "?"
+2025-11-27 11:22:06 [INFO] Crash Loop Detector is Running! (30sec)
+2025-11-27 11:22:06 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+2025-11-27 11:22:41 [INFO] Starting minecraft server version Beta 1.3
+2025-11-27 11:22:41 [INFO] Loading properties
+2025-11-27 11:22:41 [INFO] Starting websocket server on: /127.0.0.1:25565
+2025-11-27 11:22:41 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2025-11-27 11:22:41 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2025-11-27 11:22:41 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2025-11-27 11:22:41 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2025-11-27 11:22:41 [INFO] Preparing level "world"
+2025-11-27 11:22:41 [INFO] Preparing start region
+2025-11-27 11:22:41 [INFO] Loading Eaglercraft Bukkit...
+2025-11-27 11:22:41 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:22:41 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2025-11-27 11:22:41 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2025-11-27 11:22:42 [INFO] Done (0.077s)! For help, type "help" or "?"
+2025-11-27 11:22:42 [INFO] Crash Loop Detector is Running! (30sec)
+
+2025-11-27 11:22:42 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2025-11-27 11:22:47 [INFO] To view help from the console, type "?".
+
+2025-11-27 11:22:49 [INFO] To run the server without a gui, start it like this:
+2025-11-27 11:22:49 [INFO]    java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+2025-11-27 11:22:49 [INFO] Console commands:
+2025-11-27 11:22:49 [INFO]    help  or  ?               shows this message
+2025-11-27 11:22:49 [INFO]    kick <player>             removes a player from the server
+2025-11-27 11:22:49 [INFO]    ban <player>              bans a player from the server
+2025-11-27 11:22:49 [INFO]    pardon <player>           pardons a banned player so that they can connect again
+2025-11-27 11:22:49 [INFO]    ban-ip <ip>               bans an IP address from the server
+2025-11-27 11:22:49 [INFO]    pardon-ip <ip>            pardons a banned IP address so that they can connect again
+2025-11-27 11:22:49 [INFO]    op <player>               turns a player into an op
+2025-11-27 11:22:49 [INFO]    deop <player>             removes op status from a player
+2025-11-27 11:22:49 [INFO]    tp <player1> <player2>    moves one player to the same location as another player
+2025-11-27 11:22:49 [INFO]    give <player> <id> [num]  gives a player a resource
+2025-11-27 11:22:49 [INFO]    tell <player> <message>   sends a private message to a player
+2025-11-27 11:22:49 [INFO]    stop                      gracefully stops the server
+2025-11-27 11:22:49 [INFO]    save-all                  forces a server-wide level save
+2025-11-27 11:22:49 [INFO]    save-off                  disables terrain saving (useful for backup scripts)
+2025-11-27 11:22:49 [INFO]    save-on                   re-enables terrain saving
+2025-11-27 11:22:49 [INFO]    list                      lists all currently connected players
+2025-11-27 11:22:49 [INFO]    say <message>             broadcasts a message to all players
+2025-11-27 11:22:49 [INFO]    time <add|set> <amount>   adds to or sets the world time (0-24000)
+2026-03-14 09:42:51 [INFO] Starting minecraft server version Beta 1.3
+2026-03-14 09:42:51 [INFO] Loading properties
+2026-03-14 09:42:51 [INFO] Starting websocket server on: /127.0.0.1:25565
+2026-03-14 09:42:51 [SEVERE] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+2026-03-14 09:42:51 [SEVERE] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+2026-03-14 09:42:51 [SEVERE] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+2026-03-14 09:42:51 [INFO] This server is running Craftbukkit version null (MC: 1.3)
+2026-03-14 09:42:51 [INFO] Preparing level "world"
+2026-03-14 09:42:51 [INFO] Preparing start region
+2026-03-14 09:42:52 [INFO] Loading Eaglercraft Bukkit...
+2026-03-14 09:42:52 [INFO] Loaded Essentials build 231 by Zenexer, ementalo, Eris, and Brettflan
+2026-03-14 09:42:52 [INFO] Loaded EssentialsHelp build 231 by Zenexer, ementalo, Eris, and EggRoll
+2026-03-14 09:42:52 [INFO] Loaded EssentialsProtect build 231 by Zenexer, ementalo, Eris, and Brettflan
+2026-03-14 09:42:52 [INFO] Done (0.097s)! For help, type "help" or "?"
+2026-03-14 09:42:52 [INFO] Crash Loop Detector is Running! (30sec)
+
+2026-03-14 09:42:52 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2026-03-14 09:43:20 [INFO] 143 recipes
+
+2026-03-14 09:43:20 [INFO] eag [websocket] logged in with entity id 118
+2026-03-14 09:43:20 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2026-03-14 09:43:27 [INFO] [PLAYER_COMMAND] eag: /help 
+2026-03-14 09:43:40 [INFO] [PLAYER_COMMAND] eag: /getpos 
+2026-03-14 09:43:46 [INFO] [PLAYER_COMMAND] eag: /kit 
+2026-03-14 09:43:51 [INFO] [PLAYER_COMMAND] eag: /kit tools
+2026-03-14 09:43:51 [INFO] Kit is timed
+
+2026-03-14 09:44:33 [INFO] [PLAYER_COMMAND] eag: /time set 0
+2026-03-14 09:44:33 [WARNING] eag was denied access to command.
+2026-03-14 09:44:37 [INFO] CONSOLE: Opping eag
+2026-03-14 09:44:43 [INFO] eag issued server command: register
+2026-03-14 09:44:43 [INFO] Unknown console command. Type "help" for help.
+2026-03-14 09:44:46 [INFO] eag issued server command: register
+2026-03-14 09:44:46 [INFO] Unknown console command. Type "help" for help.
+2026-03-14 09:44:50 [INFO] eag issued server command: password
+2026-03-14 09:44:50 [INFO] Unknown console command. Type "help" for help.
+2026-03-14 09:45:06 [INFO] eag lost connection: disconnect.quitting
+2026-03-14 09:45:07 [INFO] Freed 55.25904846191406 MB.
+2026-03-14 09:46:03 [INFO] eag [websocket] logged in with entity id 28180
+2026-03-14 09:46:03 [SEVERE] Could not pass event PLAYER_JOIN to Essentials
+java.lang.IllegalAccessError: class org.bukkit.craftbukkit.entity.CraftPlayer tried to access abstract method 'java.net.SocketAddress net.minecraft.server.NetworkManager.b()' (org.bukkit.craftbukkit.entity.CraftPlayer and net.minecraft.server.NetworkManager are in unnamed module of loader 'app')
+	at org.bukkit.craftbukkit.entity.CraftPlayer.getAddress(CraftPlayer.java:49)
+	at com.earth2me.essentials.User.getAddress(User.java:347)
+	at com.earth2me.essentials.Essentials.getLines(Essentials.java:427)
+	at com.earth2me.essentials.Essentials.getMotd(Essentials.java:387)
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerJoin(EssentialsPlayerListener.java:165)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:125)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:59)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:225)
+	at net.minecraft.server.ServerConfigurationManager.a(ServerConfigurationManager.java:98)
+	at net.minecraft.server.NetLoginHandler.b(NetLoginHandler.java:227)
+	at net.minecraft.server.NetLoginHandler.a(NetLoginHandler.java:55)
+	at net.minecraft.server.NetworkListenThread.a(NetworkListenThread.java:54)
+	at net.minecraft.server.MinecraftServer.h(MinecraftServer.java:373)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:290)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:366)
+2026-03-14 09:46:39 [INFO] <§ceag§f> Hello
+2026-03-14 09:46:42 [INFO] [PLAYER_COMMAND] eag: /time set 0
+2026-03-14 09:46:45 [INFO] [PLAYER_COMMAND] eag: /time day
+2026-03-14 09:46:48 [INFO] [PLAYER_COMMAND] eag: /help 
+2026-03-14 09:47:05 [INFO] [PLAYER_COMMAND] eag: /help 2
+2026-03-14 09:47:07 [INFO] [PLAYER_COMMAND] eag: /help 3
+2026-03-14 09:47:13 [INFO] [PLAYER_COMMAND] eag: /help 2
+2026-03-14 09:47:19 [INFO] [PLAYER_COMMAND] eag: /jump 
+2026-03-14 09:47:27 [INFO] [PLAYER_COMMAND] eag: /help 3
+2026-03-14 09:47:38 [INFO] [PLAYER_COMMAND] eag: /ping 
+2026-03-14 09:47:44 [INFO] [PLAYER_COMMAND] eag: /help 4
+2026-03-14 09:47:52 [INFO] [PLAYER_COMMAND] eag: /nick 
+2026-03-14 09:47:58 [INFO] [PLAYER_COMMAND] eag: /nick smart
+2026-03-14 09:47:59 [INFO] <§ceag§f> t
+2026-03-14 09:48:02 [INFO] [PLAYER_COMMAND] eag: /nick 
+2026-03-14 09:48:11 [INFO] <§ceag§f> ttt
+2026-03-14 09:48:15 [INFO] eag issued server command: n
+2026-03-14 09:48:15 [INFO] Unknown console command. Type "help" for help.
+2026-03-14 09:48:17 [INFO] eag issued server command: n
+2026-03-14 09:48:17 [INFO] Unknown console command. Type "help" for help.
+2026-03-14 09:48:20 [INFO] eag issued server command: poopoo
+2026-03-14 09:48:20 [INFO] Unknown console command. Type "help" for help.
+2026-03-14 09:48:25 [INFO] eag issued server command: peepeee
+2026-03-14 09:48:25 [INFO] Unknown console command. Type "help" for help.
+2026-03-14 09:49:06 [INFO] eag lost connection: disconnect.quitting
+2026-03-14 09:49:08 [INFO] Freed 204.8837661743164 MB.
+2026-03-14 09:49:38 [INFO] CONSOLE: Stopping the server..
+2026-03-14 09:49:38 [INFO] Stopping server
+2026-03-14 09:49:38 [WARNING] EssentialsProtect Disabled, protection deactivated
+2026-03-14 09:49:38 [INFO] Saving chunks
