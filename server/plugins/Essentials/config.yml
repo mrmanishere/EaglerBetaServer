@@ -104,6 +104,7 @@ restricted-commands:
   - spawnmob
   - broadcast
   - back
+  - kit
 # Note: All items MUST be followed by a quantity!
 # Times are measured in seconds.
 kits:
